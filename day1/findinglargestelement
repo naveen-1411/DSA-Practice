@@ -1,0 +1,25 @@
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = {85, 99};
+
+        int max = Integer.MIN_VALUE;
+        int secondmax = Integer.MIN_VALUE;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
+                secondmax = max;    // previous max becomes second max
+                max = arr[i];       // update max
+            } else if (arr[i] > secondmax && arr[i] != max) {
+                secondmax = arr[i]; // update second max
+            }
+        }
+
+        System.out.println("Max value is: " + max);
+
+        if (secondmax == Integer.MIN_VALUE) {
+            System.out.println("No second largest element found.");
+        } else {
+            System.out.println("Second largest value is: " + secondmax);
+        }
+    }
+}
