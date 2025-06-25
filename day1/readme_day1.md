@@ -20,3 +20,11 @@ A Java program has:
 
 Basic Java Code Structure is mentioned in hello world file
 
+Step 2: Learn What Arrays Are (With Real Meaning)
+ What is an array?
+Imagine a box with multiple compartments.
+
+You can store numbers in it: like 1, 2, 3, 4, 5.
+
+You can access them by position (called index). note index start from 0 
+ see file array to know more about it.
