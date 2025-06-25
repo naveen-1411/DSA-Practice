@@ -1,0 +1,30 @@
+
+class sample{
+public static void main(string[] args) {
+\\ method 1
+System.out.print("hello ");
+System.out.print(" world");
+\\output
+hello  world
+\\method 2 
+ System.out.println("*");
+        System.out.println("**");
+        System.out.println("***");
+        System.out.println("****");
+        /*output
+        *
+        **
+        ***
+        ****
+        */
+\\method 3
+System.out.println("*\n**\n***\n****");
+/*output
+        *
+        **
+        ***
+        ****
+        */
+}
+}
+
