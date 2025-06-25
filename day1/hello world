@@ -1,5 +1,16 @@
-class example{ 
-public static void main(string[] args){
-System.out.print("Hello world");
+// This is a Java program
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, Java!");
+    }
 }
-}
+
+\*
+Explanation:
+public class HelloWorld: You're defining a class called HelloWorld. This is like creating a container.
+
+public static void main(String[] args): This is the main method — it’s where your program starts running.
+
+System.out.println(...): This prints something to the screen.
+
+*/
