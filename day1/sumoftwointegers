@@ -1,0 +1,9 @@
+class SumofTwoIntegers {
+    public static void main(String[]args){
+        int a=15;
+        int b=40;
+        int sum=a+b;
+        System.out.println(sum); \\ System.out.println("the sum of "+a+ "and" +b+"is" +sum+);
+    }
+}
+\\output  55 
