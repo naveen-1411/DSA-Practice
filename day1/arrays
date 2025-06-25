@@ -1,0 +1,15 @@
+public class MyArray {
+    public static void main(String[] args) {
+        int[] numbers = {10, 20, 30, 40, 50};
+        System.out.println("First number is: " + numbers[0]);
+    }
+}
+
+/*
+Explanation:
+int[] numbers → You are saying: “I want to store multiple integers.”
+
+{10, 20, 30} → These are the values you store in the array.
+
+numbers[0] → Java arrays start from index 0, so this gives the first number → 10.
+*/
